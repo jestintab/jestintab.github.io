@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": false,
   "license": "MIT",
-  "homepage": "http://jestintab.github.io/",
+  "homepage": "https://jestintab.github.io/",
   "dependencies": {
     "@carbon/icons-react": "^10.6.1",
     "@carbon/themes": "^10.7.0",
@@ -21,8 +21,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -b master-d build"
   },
   "eslintConfig": {
     "extends": "react-app"
